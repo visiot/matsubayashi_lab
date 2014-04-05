@@ -60,7 +60,8 @@ a:hover {
 /* =Top
 -----------------------------------------------------------------------------*/
 #top {
-	background: #555;
+	background: -webkit-gradient(linear, left top, right bottom,  from(#CF001B), to(#001663));
+	background: -moz-linear-gradient(top, Yellow, #CF001B, #001663);
 	color: #eee;
 	overflow: hidden;
 	padding: 7px 0 5px 0;
@@ -452,3 +453,4 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 	.wrapper { width: 420px; }
 
 }
+
