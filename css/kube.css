@@ -1,10 +1,10 @@
 /*
 	Kube Professional CSS-framework
-	
+
 	Copyright (c) 2012, Imperavi Inc.
 
 	http://imperavi.com/kube/
-	
+
 	License: free
 
 */
@@ -437,6 +437,11 @@ td {
 }
 /* =Tables
 -----------------------------------------------------------------------------*/
+table.center td,
+table.center th {
+  text-align: center;
+  border-bottom: 1px;
+  }
 table caption {
   text-transform: uppercase;
   font-weight: bold;
